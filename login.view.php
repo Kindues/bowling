@@ -11,7 +11,12 @@
 <header>
 <p><a href="login.view.php">Login</a>&nbsp;<a href="register.view.php">Register</a></p>
 </header>
-
-    <p>Stub for displaying the login</p>
+  <form>
+    Email:<input type="text" name="email"><br>
+    Password:<input type="password" name="password"><br>
+    <input type="submit" value="submit"><br>
+    
+  </form>
+    <p>Please use your valid Email and Password to sign in.</p>
 </body>
 </html>
